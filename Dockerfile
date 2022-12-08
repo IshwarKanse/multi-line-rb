@@ -3,4 +3,4 @@ RUN  mkdir WORK_REPO
 RUN  cd  WORK_REPO
 WORKDIR  /WORK_REPO
 ADD multi-line-rb.rb .
-CMD ["ruby", "multi-line-py.py"]
+CMD ["ruby", "multi-line-rb.rb"]
